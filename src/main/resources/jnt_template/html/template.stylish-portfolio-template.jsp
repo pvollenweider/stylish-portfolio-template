@@ -24,11 +24,12 @@
 
     <template:addResources type="css" resources="bootstrap.min.css"/>
     <template:addResources type="css" resources="all.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+          rel="stylesheet" type="text/css">
     <template:addResources type="css" resources="simple-line-icons/css/simple-line-icons.css"/>
     <template:addResources type="css" resources="stylish-portfolio.min.css"/>
-
     <template:addResources type="javascript" resources="jquery.min.js"/>
+    <template:addResources type="javascript" resources="popper.min.js"/>
     <template:addResources type="javascript" resources="bootstrap.min.js"/>
     <template:addResources type="javascript" resources="jquery.easing.min.js"/>
     <template:addResources type="javascript" resources="stylish-portfolio.min.js" targetTag="body"/>
@@ -50,7 +51,8 @@
             <c:set var="mainSections" value="${jcr:getChildrenOfType(pageContentNode, 'spmix:menuLabel')}"/>
             <c:forEach items="${mainSections}" var="mainSection" varStatus="status">
                 <li class="sidebar-nav-item">
-                    <a class="js-scroll-trigger" href="#${mainSection.name}">${mainSection.properties.menuLabel.string}</a>
+                    <a class="js-scroll-trigger"
+                       href="#${mainSection.name}">${mainSection.properties.menuLabel.string}</a>
                 </li>
             </c:forEach>
         </c:if>
@@ -75,11 +77,13 @@
 </nav>
 
 
-    <template:area path="pagecontent"/>
+<template:area path="pagecontent"/>
 <footer class="footer text-center">
     <div class="container">
         <template:area path="social-links" areaAsSubNode="true" nodeTypes="spnt:socialLink" areaType="spnt:socialLinks" level="0" moduleType="absoluteArea"/>
-        <p class="text-muted small mb-0"><template:area path="copyright" areaAsSubNode="true" nodeTypes="spnt:copyright" areaType="spnt:copyrightList" level="0" moduleType="absoluteArea" listLimit="1"/></p>
+        <p class="text-muted small mb-0">
+            <template:area path="copyright" areaAsSubNode="true" nodeTypes="spnt:copyright" areaType="spnt:copyrightList" level="0" moduleType="absoluteArea" listLimit="1"/>
+        </p>
     </div>
 </footer>
 <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">

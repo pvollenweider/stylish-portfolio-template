@@ -29,6 +29,6 @@
                 <h2 class="mb-5">${title}</h2>
             </c:if>
         </div>
-        <template:area path="${currentNode.name}-3" areaAsSubNode="true" nodeTypes="spnt:portfolio" areaType="spnt:portfolios"/>
+        <template:area path="${currentNode.name}" areaAsSubNode="true" nodeTypes="spnt:portfolio" areaType="spnt:portfolios"/>
     </div>
 </section>
