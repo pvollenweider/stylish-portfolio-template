@@ -72,7 +72,7 @@
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
                         <stylish-portfolio jcr:primaryType="jnt:pageTemplate"/>
-                        <portfolio-detail j:applyOn="jnt:portfolio"
+                        <portfolio-detail j:applyOn="spnt:portfolio"
                                  j:defaultTemplate="true"
                                  j:hiddenTemplate="false"
                                  jcr:primaryType="jnt:contentTemplate">
@@ -81,7 +81,29 @@
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="portfolio-detail"/>
                             <pagecontent jcr:primaryType="jnt:contentList">
-                                <main-resource-display jcr:primaryType="jnt:mainResourceDisplay"/>
+                                <layout-and-grid grid="4_8"
+                                      gridLayout="fixed-width"
+                                      jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      rowCssClass="mt-3"
+                                      rowHorizontalAlignment="default"
+                                      rowVerticalAlignment="default"
+                                      typeOfGrid="predefinedGrid">
+                                    <layout-and-grid-main jcr:primaryType="jnt:contentList">
+                                        <main-resource-display-1 j:mainResourceView="detail" jcr:primaryType="jnt:mainResourceDisplay"/>
+                                    </layout-and-grid-main>
+                                    <layout-and-grid-side jcr:primaryType="jnt:contentList">
+                                        <main-resource-display j:mainResourceView="detail-image"
+                                                  jcr:primaryType="jnt:mainResourceDisplay"/>
+                                    </layout-and-grid-side>
+                                </layout-and-grid>
+                                <detail grid="12"
+                             gridLayout="fixed-width"
+                             jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
+                             jcr:primaryType="bootstrap4nt:grid"
+                             rowHorizontalAlignment="default"
+                             rowVerticalAlignment="default"
+                             typeOfGrid="predefinedGrid"/>
                             </pagecontent>
                         </portfolio-detail>
                         <pagecontent jcr:primaryType="jnt:contentList">

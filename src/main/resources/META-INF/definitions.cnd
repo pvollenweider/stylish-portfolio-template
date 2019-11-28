@@ -9,6 +9,7 @@
 [spmix:component] > jmix:droppableContent, jmix:editorialContent mixin
 
 [spnt:portfolio] > jnt:content, mix:title, bootstrap4mix:image, bootstrap4mix:text
+ + * (jmix:droppableContent) = jmix:droppableContent
 
 [spmix:menuLabel] mixin
  extends = spnt:section

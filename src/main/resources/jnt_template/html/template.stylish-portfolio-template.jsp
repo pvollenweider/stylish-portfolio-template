@@ -56,6 +56,12 @@
                 </li>
             </c:forEach>
         </c:if>
+        <c:if test="${jcr:isNodeType(renderContext.mainResource.node, 'spnt:portfolio')}">
+            <c:set var="parentPage" value="${jcr:getParentOfType(renderContext.mainResource.node, 'jnt:page')}"/>
+            <c:url var="parentPageUrl" value="${parentPage.url}"/>
+            <li class="sidebar-nav-item"><a href="${parentPageUrl}" class="btn btn-primary"><i class="fas fa-arrow-left fa-fw"></i>&nbsp;${parentPage.displayableName}</a></li>
+
+        </c:if>
         <%--
         <li class="sidebar-nav-item">
             <a class="js-scroll-trigger" href="#page-top">Home</a>

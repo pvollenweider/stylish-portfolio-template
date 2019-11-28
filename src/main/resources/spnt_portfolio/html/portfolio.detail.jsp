@@ -16,21 +16,9 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<c:url var="detailUrl" value="${currentNode.url}"/>
-<a class="portfolio-item" href="${detailUrl}">
-    <span class="caption">
-        <span class="caption-content">
-            <c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>
-            <c:if test="${! empty title}">
-                <h2>${title}</h2>
-            </c:if>
-            <c:set var="text" value="${currentNode.properties.text.string}"/>
-            <c:if test="${! empty text}">
-                <p class="mb-0">${functions:removeHtmlTags(text)}</p>
-            </c:if>
-        </span>
-    </span>
-    <template:include view="image">
-        <template:param name="class" value="img-fluid"/>
-    </template:include>
-</a>
+<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>
+<c:if test="${! empty title}">
+    <h2>${title}</h2>
+</c:if>
+${currentNode.properties.text.string}
+
