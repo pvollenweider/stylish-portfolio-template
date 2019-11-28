@@ -9,61 +9,62 @@
                                   jcr:primaryType="jnt:module">
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder"/>
+                <files jcr:primaryType="jnt:folder">
+                    <bg-callout.jpg j:height="1268"
+                            j:width="1900"
+                            jcr:mixinTypes="jmix:image"
+                            jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </bg-callout.jpg>
+                    <bg-masthead.jpg j:height="1268"
+                             j:width="1900"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </bg-masthead.jpg>
+                    <portfolio-1.jpg j:height="467"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </portfolio-1.jpg>
+                    <portfolio-2.jpg j:height="467"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </portfolio-2.jpg>
+                    <portfolio-3.jpg j:height="467"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </portfolio-3.jpg>
+                    <portfolio-4.jpg j:height="467"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    </portfolio-4.jpg>
+                </files>
                 <contents jcr:primaryType="jnt:contentFolder"/>
                 <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder">
                         <themes jcr:primaryType="jnt:folder">
                             <default jcr:primaryType="jnt:folder"/>
                         </themes>
-                        <portfolio-4.jpg j:height="467"
-                                j:width="700"
-                                jcr:mixinTypes="jmix:image"
-                                jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </portfolio-4.jpg>
-                        <bg-callout.jpg j:height="1268"
-                               j:width="1900"
-                               jcr:mixinTypes="jmix:image"
-                               jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </bg-callout.jpg>
-                        <portfolio-3.jpg j:height="467"
-                                j:width="700"
-                                jcr:mixinTypes="jmix:image"
-                                jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </portfolio-3.jpg>
-                        <portfolio-1.jpg j:height="467"
-                                j:width="700"
-                                jcr:mixinTypes="jmix:image"
-                                jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </portfolio-1.jpg>
-                        <portfolio-2.jpg j:height="467"
-                                j:width="700"
-                                jcr:mixinTypes="jmix:image"
-                                jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </portfolio-2.jpg>
-                        <bg-masthead.jpg j:height="1268"
-                                j:width="1900"
-                                jcr:mixinTypes="jmix:image"
-                                jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        </bg-masthead.jpg>
                     </files>
                     <contents jcr:primaryType="jnt:contentFolder"/>
                     <base j:theme="#/modules/stylish-portfolio-template/templates/files/themes/default"
@@ -110,7 +111,7 @@
                               jcr:primaryType="jnt:translation"
                               jcr:title="Stylish Portfolio"/>
                     <pagecontent jcr:primaryType="jnt:contentList">
-                        <stylish-portfolio image="#/modules/stylish-portfolio-template/templates/files/bg-masthead.jpg"
+                        <stylish-portfolio image="#/modules/stylish-portfolio-template/files/bg-masthead.jpg"
                                   jcr:mixinTypes="spmix:image spmix:menuLabel"
                                   jcr:primaryType="spnt:section"
                                   type="header">
@@ -405,7 +406,7 @@
                                     menuLabel="Services"
                                     subtitle="Services"/>
                         </services>
-                        <welcome-to-emyourem-next-website image="#/modules/stylish-portfolio-template/templates/files/bg-callout.jpg"
+                        <welcome-to-emyourem-next-website image="#/modules/stylish-portfolio-template/files/bg-callout.jpg"
                                                  jcr:mixinTypes="spmix:image"
                                                  jcr:primaryType="spnt:section"
                                                  type="callout">
@@ -461,7 +462,7 @@
                                     menuLabel="Portfolio"
                                     subtitle="Portfolio"/>
                             <recent-projects jcr:primaryType="spnt:portfolios">
-                                <stationary image="#/modules/stylish-portfolio-template/templates/files/portfolio-1.jpg"
+                                <stationary image="#/modules/stylish-portfolio-template/files/portfolio-1.jpg"
                                  jcr:primaryType="spnt:portfolio">
                                     <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
@@ -494,7 +495,7 @@
                                           jcr:title="Stationary"
                                           text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
                                 </stationary>
-                                <ice-cream image="#/modules/stylish-portfolio-template/templates/files/portfolio-2.jpg"
+                                <ice-cream image="#/modules/stylish-portfolio-template/files/portfolio-2.jpg"
                                 jcr:primaryType="spnt:portfolio">
                                     <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
@@ -527,7 +528,7 @@
                                           jcr:title="Ice Cream"
                                           text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
                                 </ice-cream>
-                                <strawberries image="#/modules/stylish-portfolio-template/templates/files/portfolio-3.jpg"
+                                <strawberries image="#/modules/stylish-portfolio-template/files/portfolio-3.jpg"
                                    jcr:primaryType="spnt:portfolio">
                                     <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
@@ -560,7 +561,7 @@
                                           jcr:title="Strawberries"
                                           text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
                                 </strawberries>
-                                <workspace image="#/modules/stylish-portfolio-template/templates/files/portfolio-4.jpg"
+                                <workspace image="#/modules/stylish-portfolio-template/files/portfolio-4.jpg"
                                 jcr:primaryType="spnt:portfolio">
                                     <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
@@ -782,6 +783,40 @@
                               jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Stylish Portfolio"/>
+                    <social-links jcr:primaryType="spnt:socialLinks">
+                        <facebook jcr:primaryType="spnt:socialLink"
+                         simpleLineIcon="icon-social-facebook"
+                         url="https://facebook.com">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Facebook"/>
+                        </facebook>
+                        <twitter jcr:primaryType="spnt:socialLink"
+                        simpleLineIcon="icon-social-twitter"
+                        url="https://twitter.com/">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Twitter"/>
+                        </twitter>
+                        <github jcr:primaryType="spnt:socialLink"
+                       simpleLineIcon="icon-social-github"
+                       url="https://github.com">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="GitHub"/>
+                        </github>
+                    </social-links>
+                    <copyright jcr:primaryType="spnt:copyrightList">
+                        <copyright jcr:primaryType="spnt:copyright">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Copyright © Your Website 2019"/>
+                        </copyright>
+                    </copyright>
                 </home>
             </stylish-portfolio-template>
     </modules>
