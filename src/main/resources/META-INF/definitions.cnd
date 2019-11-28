@@ -24,7 +24,7 @@
 
 [spnt:section] > jnt:content, mix:title, spmix:component
  - subtitle (string) internationalized
- - type (string, choicelist[sectionTypesInitializer,resourceBundle]) = 'header' autocreated indexed=no < 'callout', 'header', 'blue', 'light','portfolio'
+ - type (string, choicelist[sectionTypesInitializer,resourceBundle,moduleImage='png']) = 'header' autocreated indexed=no < 'callout', 'header', 'blue', 'light','portfolio'
  + * (jmix:droppableContent) = jmix:droppableContent
 
 [spnt:iconBox] > jnt:content, mix:title, spmix:simpleLineIcon
