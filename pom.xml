@@ -59,8 +59,9 @@
   <name>stylish-portfolio-template</name>
   <description>This is the custom profile module (stylish-portfolio-template) for running on a Digital Experience Manager server.</description>
   <scm>
-    <connection>scm:dummy:uri</connection>
-    <developerConnection>scm:dummy:uri</developerConnection>
+    <connection>scm:git:git@github.com:pvollenweider/stylish-portfolio-template.git</connection>
+    <developerConnection>scm:git:git@github.com:pvollenweider/stylish-portfolio-template.git</developerConnection>
+    <url>https://github.com/pvollenweider/stylish-portfolio-template</url>
   </scm>
   <properties>
     <jahia-depends>bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs</jahia-depends>
