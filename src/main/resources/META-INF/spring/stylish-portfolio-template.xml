@@ -5,5 +5,8 @@
     <bean id="sectionTypesInitializer" class="org.jahia.modules.stylishportfolio.initialiters.SectionTypesInitializer">
         <property name="key" value="sectionTypesInitializer" />
     </bean>
+    <bean id="simpleIconInitializer" class="org.jahia.modules.stylishportfolio.initialiters.SimpleIconInitializer">
+        <property name="key" value="simpleIconInitializer" />
+    </bean>
 
 </beans>

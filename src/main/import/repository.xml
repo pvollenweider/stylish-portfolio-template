@@ -2,844 +2,844 @@
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
         <stylish-portfolio-template j:dependencies="bootstrap4-components bootstrap4-core default font-awesome jquery popperjs"
-                                  j:installedModules="stylish-portfolio-template"
-                                  j:modulePriority="0"
-                                  j:moduleType="templatesSet"
-                                  j:title="stylish-portfolio-template"
-                                  jcr:primaryType="jnt:module">
-                
-                <portlets jcr:primaryType="jnt:portletFolder"/>
+                                    j:installedModules="stylish-portfolio-template"
+                                    j:modulePriority="0"
+                                    j:moduleType="templatesSet"
+                                    j:title="stylish-portfolio-template"
+                                    jcr:primaryType="jnt:module">
+
+            <portlets jcr:primaryType="jnt:portletFolder"/>
+            <files jcr:primaryType="jnt:folder">
+                <bg-callout.jpg j:height="1268"
+                                j:width="1900"
+                                jcr:mixinTypes="jmix:image"
+                                jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </bg-callout.jpg>
+                <bg-masthead.jpg j:height="1268"
+                                 j:width="1900"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </bg-masthead.jpg>
+                <portfolio-1.jpg j:height="467"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </portfolio-1.jpg>
+                <portfolio-2.jpg j:height="467"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </portfolio-2.jpg>
+                <portfolio-3.jpg j:height="467"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </portfolio-3.jpg>
+                <portfolio-4.jpg j:height="467"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                    <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                </portfolio-4.jpg>
+            </files>
+            <contents jcr:primaryType="jnt:contentFolder"/>
+            <templates jcr:primaryType="jnt:templatesFolder">
                 <files jcr:primaryType="jnt:folder">
-                    <bg-callout.jpg j:height="1268"
-                            j:width="1900"
-                            jcr:mixinTypes="jmix:image"
-                            jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </bg-callout.jpg>
-                    <bg-masthead.jpg j:height="1268"
-                             j:width="1900"
-                             jcr:mixinTypes="jmix:image"
-                             jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </bg-masthead.jpg>
-                    <portfolio-1.jpg j:height="467"
-                             j:width="700"
-                             jcr:mixinTypes="jmix:image"
-                             jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </portfolio-1.jpg>
-                    <portfolio-2.jpg j:height="467"
-                             j:width="700"
-                             jcr:mixinTypes="jmix:image"
-                             jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </portfolio-2.jpg>
-                    <portfolio-3.jpg j:height="467"
-                             j:width="700"
-                             jcr:mixinTypes="jmix:image"
-                             jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </portfolio-3.jpg>
-                    <portfolio-4.jpg j:height="467"
-                             j:width="700"
-                             jcr:mixinTypes="jmix:image"
-                             jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                    </portfolio-4.jpg>
+                    <themes jcr:primaryType="jnt:folder">
+                        <default jcr:primaryType="jnt:folder"/>
+                    </themes>
                 </files>
                 <contents jcr:primaryType="jnt:contentFolder"/>
-                <templates jcr:primaryType="jnt:templatesFolder">
-                    <files jcr:primaryType="jnt:folder">
-                        <themes jcr:primaryType="jnt:folder">
-                            <default jcr:primaryType="jnt:folder"/>
-                        </themes>
-                    </files>
-                    <contents jcr:primaryType="jnt:contentFolder"/>
-                    <base j:theme="#/modules/stylish-portfolio-template/templates/files/themes/default"
-                  j:view="stylish-portfolio-template"
-                  jcr:mixinTypes="jmix:theme"
-                  jcr:primaryType="jnt:template">
-                        <stylish-portfolio jcr:primaryType="jnt:pageTemplate"/>
-                        <portfolio-detail j:applyOn="spnt:portfolio"
-                                 j:defaultTemplate="true"
-                                 j:hiddenTemplate="false"
-                                 jcr:primaryType="jnt:contentTemplate">
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="portfolio-detail"/>
-                            <pagecontent jcr:primaryType="jnt:contentList">
-                                <layout-and-grid grid="4_8"
-                                      gridLayout="fixed-width"
-                                      jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
-                                      jcr:primaryType="bootstrap4nt:grid"
-                                      rowCssClass="mt-3"
-                                      rowHorizontalAlignment="default"
-                                      rowVerticalAlignment="default"
-                                      typeOfGrid="predefinedGrid">
-                                    <layout-and-grid-main jcr:primaryType="jnt:contentList">
-                                        <main-resource-display-1 j:mainResourceView="detail" jcr:primaryType="jnt:mainResourceDisplay"/>
-                                    </layout-and-grid-main>
-                                    <layout-and-grid-side jcr:primaryType="jnt:contentList">
-                                        <main-resource-display j:mainResourceView="detail-image"
-                                                  jcr:primaryType="jnt:mainResourceDisplay"/>
-                                    </layout-and-grid-side>
-                                </layout-and-grid>
-                                <detail grid="12"
-                             gridLayout="fixed-width"
-                             jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
-                             jcr:primaryType="bootstrap4nt:grid"
-                             rowHorizontalAlignment="default"
-                             rowVerticalAlignment="default"
-                             typeOfGrid="predefinedGrid"/>
-                            </pagecontent>
-                        </portfolio-detail>
+                <base j:theme="#/modules/stylish-portfolio-template/templates/files/themes/default"
+                      j:view="stylish-portfolio-template"
+                      jcr:mixinTypes="jmix:theme"
+                      jcr:primaryType="jnt:template">
+                    <stylish-portfolio jcr:primaryType="jnt:pageTemplate"/>
+                    <portfolio-detail j:applyOn="spnt:portfolio"
+                                      j:defaultTemplate="true"
+                                      j:hiddenTemplate="false"
+                                      jcr:primaryType="jnt:contentTemplate">
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="portfolio-detail"/>
                         <pagecontent jcr:primaryType="jnt:contentList">
-                            <pagecontent jcr:primaryType="jnt:area"/>
+                            <layout-and-grid grid="4_8"
+                                             gridLayout="fixed-width"
+                                             jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
+                                             jcr:primaryType="bootstrap4nt:grid"
+                                             rowCssClass="mt-3"
+                                             rowHorizontalAlignment="default"
+                                             rowVerticalAlignment="default"
+                                             typeOfGrid="predefinedGrid">
+                                <layout-and-grid-main jcr:primaryType="jnt:contentList">
+                                    <main-resource-display-1 j:mainResourceView="detail" jcr:primaryType="jnt:mainResourceDisplay"/>
+                                </layout-and-grid-main>
+                                <layout-and-grid-side jcr:primaryType="jnt:contentList">
+                                    <main-resource-display j:mainResourceView="detail-image"
+                                                           jcr:primaryType="jnt:mainResourceDisplay"/>
+                                </layout-and-grid-side>
+                            </layout-and-grid>
+                            <detail grid="12"
+                                    gridLayout="fixed-width"
+                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
+                                    jcr:primaryType="bootstrap4nt:grid"
+                                    rowHorizontalAlignment="default"
+                                    rowVerticalAlignment="default"
+                                    typeOfGrid="predefinedGrid"/>
                         </pagecontent>
-                    </base>
-                    <content-template j:applyOn="jnt:content"
-                              j:hiddenTemplate="true"
-                              j:priority="1"
-                              j:view="stylish-portfolio-template"
-                              jcr:primaryType="jnt:contentTemplate">
-                        <pagecontent jcr:primaryType="jnt:contentList">
-                            <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
-                        </pagecontent>
-                    </content-template>
-                </templates>
-                
-                <home j:isHomePage="true"
-               j:templateName="stylish-portfolio"
-               jcr:primaryType="jnt:page">
-                    <j:translation_en jcr:language="en"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
-                    <j:translation_fr jcr:language="fr"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
+                    </portfolio-detail>
                     <pagecontent jcr:primaryType="jnt:contentList">
-                        <stylish-portfolio image="#/modules/stylish-portfolio-template/files/bg-masthead.jpg"
-                                  jcr:mixinTypes="spmix:image spmix:menuLabel"
-                                  jcr:primaryType="spnt:section"
-                                  type="header">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                            <sectioncontent jcr:primaryType="jnt:contentList">
-                                <find-out-more block="false"
-                                    buttonType="externalLink"
-                                    cssClass="btn-xl js-scroll-trigger"
-                                    externalLink="#about"
-                                    jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
-                                    jcr:primaryType="bootstrap4nt:button"
-                                    outline="false"
-                                    size="default"
-                                    state="default"
-                                    style="primary">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Find out More"/>
-                                </find-out-more>
-                            </sectioncontent>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio"
-                                    menuLabel="Home"
-                                    subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
-                        </stylish-portfolio>
-                        <about jcr:mixinTypes="spmix:menuLabel"
-                      jcr:primaryType="spnt:section"
-                      type="light">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                            <sectioncontent jcr:primaryType="jnt:contentList">
-                                <what-we-offer block="false"
-                                    buttonType="externalLink"
-                                    cssClass="btn-xl js-scroll-trigger"
-                                    externalLink="#services"
-                                    jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
-                                    jcr:primaryType="bootstrap4nt:button"
-                                    outline="false"
-                                    size="default"
-                                    state="default"
-                                    style="dark">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="What We Offer"/>
-                                </what-we-offer>
-                            </sectioncontent>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Stylish Portfolio is the perfect theme for your next project!"
-                                    menuLabel="About"
-                                    subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
-                        </about>
-                        <services jcr:mixinTypes="spmix:menuLabel"
-                         jcr:primaryType="spnt:section"
-                         type="blue">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                            <sectioncontent jcr:primaryType="jnt:contentList">
-                                <icon-boxes jcr:primaryType="spnt:iconBoxes">
-                                    <icon-boxes-1 jcr:primaryType="spnt:iconBoxList">
-                                        <responsive jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-screen-smartphone">
-                                            <j:translation_en jcr:language="en"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                            <j:translation_de jcr:language="de"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                            <j:translation_pt jcr:language="pt"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                            <j:translation_it jcr:language="it"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                            <j:translation_fr jcr:language="fr"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                            <j:translation_es jcr:language="es"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Responsive"
-                                                subtitle="Looks great on any screen size!"/>
-                                        </responsive>
-                                    </icon-boxes-1>
-                                    <icon-boxes-2 jcr:primaryType="spnt:iconBoxList">
-                                        <redesigned jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-pencil">
-                                            <j:translation_en jcr:language="en"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                            <j:translation_de jcr:language="de"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                            <j:translation_pt jcr:language="pt"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                            <j:translation_it jcr:language="it"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                            <j:translation_fr jcr:language="fr"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                            <j:translation_es jcr:language="es"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Redesigned"
-                                                subtitle="Freshly redesigned for Bootstrap 4."/>
-                                        </redesigned>
-                                    </icon-boxes-2>
-                                    <icon-boxes-3 jcr:primaryType="spnt:iconBoxList">
-                                        <favorited jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-like">
-                                            <j:translation_en jcr:language="en"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                            <j:translation_de jcr:language="de"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                            <j:translation_pt jcr:language="pt"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                            <j:translation_it jcr:language="it"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                            <j:translation_fr jcr:language="fr"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                            <j:translation_es jcr:language="es"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Favorited"
-                                                subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
-                                        </favorited>
-                                    </icon-boxes-3>
-                                    <icon-boxes-4 jcr:primaryType="spnt:iconBoxList">
-                                        <question jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-mustache">
-                                            <j:translation_en jcr:language="en"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                            <j:translation_de jcr:language="de"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                            <j:translation_pt jcr:language="pt"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                            <j:translation_it jcr:language="it"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                            <j:translation_fr jcr:language="fr"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                            <j:translation_es jcr:language="es"
-                                                jcr:mixinTypes="mix:title"
-                                                jcr:primaryType="jnt:translation"
-                                                jcr:title="Question"
-                                                subtitle="I mustache you a question..."/>
-                                        </question>
-                                    </icon-boxes-4>
-                                </icon-boxes>
-                            </sectioncontent>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="What We Offer"
-                                    menuLabel="Services"
-                                    subtitle="Services"/>
-                        </services>
-                        <welcome-to-emyourem-next-website image="#/modules/stylish-portfolio-template/files/bg-callout.jpg"
-                                                 jcr:mixinTypes="spmix:image"
-                                                 jcr:primaryType="spnt:section"
-                                                 type="callout">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                            <sectioncontent jcr:primaryType="jnt:contentList">
-                                <download-now block="false"
-                                   buttonType="externalLink"
-                                   cssClass="btn-xl"
-                                   externalLink="https://startbootstrap.com/template-overviews/stylish-portfolio/"
-                                   jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
-                                   jcr:primaryType="bootstrap4nt:button"
-                                   outline="false"
-                                   size="default"
-                                   state="default"
-                                   style="primary">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Download Now!"/>
-                                </download-now>
-                            </sectioncontent>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
-                        </welcome-to-emyourem-next-website>
-                        <recent-projects jcr:mixinTypes="spmix:menuLabel"
-                                jcr:primaryType="spnt:section"
-                                type="portfolio">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                            <recent-projects jcr:primaryType="spnt:portfolios">
-                                <stationary image="#/modules/stylish-portfolio-template/files/portfolio-1.jpg"
-                                 jcr:primaryType="spnt:portfolio">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Stationary"
-                                          text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
-                                </stationary>
-                                <ice-cream image="#/modules/stylish-portfolio-template/files/portfolio-2.jpg"
-                                jcr:primaryType="spnt:portfolio">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Ice Cream"
-                                          text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
-                                </ice-cream>
-                                <strawberries image="#/modules/stylish-portfolio-template/files/portfolio-3.jpg"
-                                   jcr:primaryType="spnt:portfolio">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Strawberries"
-                                          text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
-                                </strawberries>
-                                <workspace image="#/modules/stylish-portfolio-template/files/portfolio-4.jpg"
-                                jcr:primaryType="spnt:portfolio">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Workspace"
-                                          text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
-                                </workspace>
-                            </recent-projects>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Recent Projects"
-                                    menuLabel="Portfolio"
-                                    subtitle="Portfolio"/>
-                        </recent-projects>
-                        <the-buttons-below-are-impossible jcr:mixinTypes="spmix:image"
-                                                 jcr:primaryType="spnt:section"
-                                                 type="blue">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                            <sectioncontent jcr:primaryType="jnt:contentList">
-                                <click-me block="false"
-                               buttonType="popover"
-                               cssClass="btn-xl"
-                               direction="bottom"
-                               jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:popover"
-                               jcr:primaryType="bootstrap4nt:button"
-                               outline="false"
-                               size="default"
-                               state="default"
-                               style="light">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Click me!"
-                                          popoverContent="Feel free to customize the action"
-                                          popoverTitle="You did it"/>
-                                </click-me>
-                                <look-at-me block="false"
-                                 buttonType="externalLink"
-                                 cssClass="btn-xl"
-                                 externalLink="#"
-                                 jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
-                                 jcr:primaryType="bootstrap4nt:button"
-                                 outline="false"
-                                 size="default"
-                                 state="default"
-                                 style="dark">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Look at Me!"/>
-                                </look-at-me>
-                            </sectioncontent>
-                            <j:translation_de jcr:language="de"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                            <j:translation_pt jcr:language="pt"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                            <j:translation_it jcr:language="it"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                            <j:translation_fr jcr:language="fr"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                            <j:translation_es jcr:language="es"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="The buttons below are impossible to resist..."/>
-                        </the-buttons-below-are-impossible>
-                        <map jcr:mixinTypes="bootstrap4mix:createSection"
-                    jcr:primaryType="bootstrap4nt:grid"
-                    sectionCssClass="map"
-                    sectionElement="section"
-                    sectionId="contact">
-                            <map jcr:primaryType="jnt:contentList">
-                                <text jcr:primaryType="bootstrap4nt:text">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:primaryType="jnt:translation"
-                                          text="    &lt;iframe width=&#34;100%&#34; height=&#34;100%&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;br&gt;&#xA;    &lt;small&gt;&#xA;      &lt;a href=&#34;https://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&#34;&gt;&lt;/a&gt;&#xA;    &lt;/small&gt;&#xA;"/>
-                                    <j:translation_de jcr:language="de"
-                                          jcr:primaryType="jnt:translation"
-                                          text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
-                                    <j:translation_pt jcr:language="pt"
-                                          jcr:primaryType="jnt:translation"
-                                          text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
-                                    <j:translation_it jcr:language="it"
-                                          jcr:primaryType="jnt:translation"
-                                          text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
-                                    <j:translation_fr jcr:language="fr"
-                                          jcr:primaryType="jnt:translation"
-                                          text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
-                                    <j:translation_es jcr:language="es"
-                                          jcr:primaryType="jnt:translation"
-                                          text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
-                                </text>
-                            </map>
-                        </map>
+                        <pagecontent jcr:primaryType="jnt:area"/>
                     </pagecontent>
-                    <j:translation_de jcr:language="de"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
-                    <j:translation_pt jcr:language="pt"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
-                    <j:translation_it jcr:language="it"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
-                    <j:translation_es jcr:language="es"
-                              jcr:mixinTypes="mix:title"
-                              jcr:primaryType="jnt:translation"
-                              jcr:title="Stylish Portfolio"/>
-                    <social-links jcr:primaryType="spnt:socialLinks">
-                        <facebook jcr:primaryType="spnt:socialLink"
-                         simpleLineIcon="icon-social-facebook"
-                         url="https://facebook.com">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Facebook"/>
-                        </facebook>
-                        <twitter jcr:primaryType="spnt:socialLink"
-                        simpleLineIcon="icon-social-twitter"
-                        url="https://twitter.com/">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Twitter"/>
-                        </twitter>
-                        <github jcr:primaryType="spnt:socialLink"
-                       simpleLineIcon="icon-social-github"
-                       url="https://github.com">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="GitHub"/>
-                        </github>
-                    </social-links>
-                    <copyright jcr:primaryType="spnt:copyrightList">
-                        <copyright jcr:primaryType="spnt:copyright">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Copyright © Your Website 2019"/>
-                        </copyright>
+                </base>
+                <content-template j:applyOn="jnt:content"
+                                  j:hiddenTemplate="true"
+                                  j:priority="1"
+                                  j:view="stylish-portfolio-template"
+                                  jcr:primaryType="jnt:contentTemplate">
+                    <pagecontent jcr:primaryType="jnt:contentList">
+                        <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
+                    </pagecontent>
+                </content-template>
+            </templates>
+
+            <home j:isHomePage="true"
+                  j:templateName="stylish-portfolio"
+                  jcr:primaryType="jnt:page">
+                <j:translation_en jcr:language="en"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <j:translation_fr jcr:language="fr"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <pagecontent jcr:primaryType="jnt:contentList">
+                    <stylish-portfolio image="#/modules/stylish-portfolio-template/files/bg-masthead.jpg"
+                                       jcr:mixinTypes="spmix:image spmix:menuLabel"
+                                       jcr:primaryType="spnt:section"
+                                       type="header">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                        <sectioncontent jcr:primaryType="jnt:contentList">
+                            <find-out-more block="false"
+                                           buttonType="externalLink"
+                                           cssClass="btn-xl js-scroll-trigger"
+                                           externalLink="#about"
+                                           jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
+                                           jcr:primaryType="bootstrap4nt:button"
+                                           outline="false"
+                                           size="default"
+                                           state="default"
+                                           style="primary">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Find out More"/>
+                            </find-out-more>
+                        </sectioncontent>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio"
+                                          menuLabel="Home"
+                                          subtitle="A Free Bootstrap Theme by Start Bootstrap"/>
+                    </stylish-portfolio>
+                    <about jcr:mixinTypes="spmix:menuLabel"
+                           jcr:primaryType="spnt:section"
+                           type="light">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                        <sectioncontent jcr:primaryType="jnt:contentList">
+                            <what-we-offer block="false"
+                                           buttonType="externalLink"
+                                           cssClass="btn-xl js-scroll-trigger"
+                                           externalLink="#services"
+                                           jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
+                                           jcr:primaryType="bootstrap4nt:button"
+                                           outline="false"
+                                           size="default"
+                                           state="default"
+                                           style="dark">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="What We Offer"/>
+                            </what-we-offer>
+                        </sectioncontent>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Stylish Portfolio is the perfect theme for your next project!"
+                                          menuLabel="About"
+                                          subtitle="This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!"/>
+                    </about>
+                    <services jcr:mixinTypes="spmix:menuLabel"
+                              jcr:primaryType="spnt:section"
+                              type="blue">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                        <sectioncontent jcr:primaryType="jnt:contentList">
+                            <icon-boxes jcr:primaryType="spnt:iconBoxes">
+                                <icon-boxes-1 jcr:primaryType="spnt:iconBoxList">
+                                    <responsive jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-screen-smartphone">
+                                        <j:translation_en jcr:language="en"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                        <j:translation_de jcr:language="de"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                        <j:translation_pt jcr:language="pt"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                        <j:translation_it jcr:language="it"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                        <j:translation_fr jcr:language="fr"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                        <j:translation_es jcr:language="es"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Responsive"
+                                                          subtitle="Looks great on any screen size!"/>
+                                    </responsive>
+                                </icon-boxes-1>
+                                <icon-boxes-2 jcr:primaryType="spnt:iconBoxList">
+                                    <redesigned jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-pencil">
+                                        <j:translation_en jcr:language="en"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                        <j:translation_de jcr:language="de"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                        <j:translation_pt jcr:language="pt"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                        <j:translation_it jcr:language="it"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                        <j:translation_fr jcr:language="fr"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                        <j:translation_es jcr:language="es"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Redesigned"
+                                                          subtitle="Freshly redesigned for Bootstrap 4."/>
+                                    </redesigned>
+                                </icon-boxes-2>
+                                <icon-boxes-3 jcr:primaryType="spnt:iconBoxList">
+                                    <favorited jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-like">
+                                        <j:translation_en jcr:language="en"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                        <j:translation_de jcr:language="de"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                        <j:translation_pt jcr:language="pt"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                        <j:translation_it jcr:language="it"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                        <j:translation_fr jcr:language="fr"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                        <j:translation_es jcr:language="es"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Favorited"
+                                                          subtitle="Millions of users &lt;i class=&#34;fas fa-heart&#34;&gt;&lt;/i&gt; Start Bootstrap!"/>
+                                    </favorited>
+                                </icon-boxes-3>
+                                <icon-boxes-4 jcr:primaryType="spnt:iconBoxList">
+                                    <question jcr:primaryType="spnt:iconBox" simpleLineIcon="icon-mustache">
+                                        <j:translation_en jcr:language="en"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                        <j:translation_de jcr:language="de"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                        <j:translation_pt jcr:language="pt"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                        <j:translation_it jcr:language="it"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                        <j:translation_fr jcr:language="fr"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                        <j:translation_es jcr:language="es"
+                                                          jcr:mixinTypes="mix:title"
+                                                          jcr:primaryType="jnt:translation"
+                                                          jcr:title="Question"
+                                                          subtitle="I mustache you a question..."/>
+                                    </question>
+                                </icon-boxes-4>
+                            </icon-boxes>
+                        </sectioncontent>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="What We Offer"
+                                          menuLabel="Services"
+                                          subtitle="Services"/>
+                    </services>
+                    <welcome-to-emyourem-next-website image="#/modules/stylish-portfolio-template/files/bg-callout.jpg"
+                                                      jcr:mixinTypes="spmix:image"
+                                                      jcr:primaryType="spnt:section"
+                                                      type="callout">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                        <sectioncontent jcr:primaryType="jnt:contentList">
+                            <download-now block="false"
+                                          buttonType="externalLink"
+                                          cssClass="btn-xl"
+                                          externalLink="https://startbootstrap.com/template-overviews/stylish-portfolio/"
+                                          jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
+                                          jcr:primaryType="bootstrap4nt:button"
+                                          outline="false"
+                                          size="default"
+                                          state="default"
+                                          style="primary">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Download Now!"/>
+                            </download-now>
+                        </sectioncontent>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Welcome to &lt;em&gt;your&lt;/em&gt; next website!"/>
+                    </welcome-to-emyourem-next-website>
+                    <recent-projects jcr:mixinTypes="spmix:menuLabel"
+                                     jcr:primaryType="spnt:section"
+                                     type="portfolio">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                        <recent-projects jcr:primaryType="spnt:portfolios">
+                            <stationary image="#/modules/stylish-portfolio-template/files/portfolio-1.jpg"
+                                        jcr:primaryType="spnt:portfolio">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Stationary"
+                                                  text="&lt;p&gt;A yellow pencil with envelopes on a clean, blue backdrop!&lt;/p&gt;&#xA;"/>
+                            </stationary>
+                            <ice-cream image="#/modules/stylish-portfolio-template/files/portfolio-2.jpg"
+                                       jcr:primaryType="spnt:portfolio">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Ice Cream"
+                                                  text="&lt;p&gt;A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!&lt;/p&gt;&#xA;"/>
+                            </ice-cream>
+                            <strawberries image="#/modules/stylish-portfolio-template/files/portfolio-3.jpg"
+                                          jcr:primaryType="spnt:portfolio">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Strawberries"
+                                                  text="&lt;p&gt;Strawberries are such a tasty snack, especially with a little sugar on top!&lt;/p&gt;&#xA;"/>
+                            </strawberries>
+                            <workspace image="#/modules/stylish-portfolio-template/files/portfolio-4.jpg"
+                                       jcr:primaryType="spnt:portfolio">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Workspace"
+                                                  text="&lt;p&gt;A yellow workspace with some scissors, pencils, and other objects.&lt;/p&gt;&#xA;"/>
+                            </workspace>
+                        </recent-projects>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Recent Projects"
+                                          menuLabel="Portfolio"
+                                          subtitle="Portfolio"/>
+                    </recent-projects>
+                    <the-buttons-below-are-impossible jcr:mixinTypes="spmix:image"
+                                                      jcr:primaryType="spnt:section"
+                                                      type="blue">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                        <sectioncontent jcr:primaryType="jnt:contentList">
+                            <click-me block="false"
+                                      buttonType="popover"
+                                      cssClass="btn-xl"
+                                      direction="bottom"
+                                      jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:popover"
+                                      jcr:primaryType="bootstrap4nt:button"
+                                      outline="false"
+                                      size="default"
+                                      state="default"
+                                      style="light">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Click me!"
+                                                  popoverContent="Feel free to customize the action"
+                                                  popoverTitle="You did it"/>
+                            </click-me>
+                            <look-at-me block="false"
+                                        buttonType="externalLink"
+                                        cssClass="btn-xl"
+                                        externalLink="#"
+                                        jcr:mixinTypes="bootstrap4mix:buttonAdvancedSettings bootstrap4mix:externalLink"
+                                        jcr:primaryType="bootstrap4nt:button"
+                                        outline="false"
+                                        size="default"
+                                        state="default"
+                                        style="dark">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:mixinTypes="mix:title"
+                                                  jcr:primaryType="jnt:translation"
+                                                  jcr:title="Look at Me!"/>
+                            </look-at-me>
+                        </sectioncontent>
+                        <j:translation_de jcr:language="de"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The buttons below are impossible to resist..."/>
+                    </the-buttons-below-are-impossible>
+                    <map jcr:mixinTypes="bootstrap4mix:createSection"
+                         jcr:primaryType="bootstrap4nt:grid"
+                         sectionCssClass="map"
+                         sectionElement="section"
+                         sectionId="contact">
+                        <map jcr:primaryType="jnt:contentList">
+                            <text jcr:primaryType="bootstrap4nt:text">
+                                <j:translation_en jcr:language="en"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="    &lt;iframe width=&#34;100%&#34; height=&#34;100%&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;br&gt;&#xA;    &lt;small&gt;&#xA;      &lt;a href=&#34;https://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&#34;&gt;&lt;/a&gt;&#xA;    &lt;/small&gt;&#xA;"/>
+                                <j:translation_de jcr:language="de"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
+                                <j:translation_pt jcr:language="pt"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
+                                <j:translation_it jcr:language="it"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
+                                <j:translation_fr jcr:language="fr"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
+                                <j:translation_es jcr:language="es"
+                                                  jcr:primaryType="jnt:translation"
+                                                  text="&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;100%&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;aq=0&amp;amp;oq=twitter&amp;amp;sll=28.659344,-81.187888&amp;amp;sspn=0.128789,0.264187&amp;amp;ie=UTF8&amp;amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;amp;t=m&amp;amp;z=15&amp;amp;iwloc=A&amp;amp;output=embed&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;"/>
+                            </text>
+                        </map>
+                    </map>
+                </pagecontent>
+                <j:translation_de jcr:language="de"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <j:translation_pt jcr:language="pt"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <j:translation_it jcr:language="it"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <j:translation_es jcr:language="es"
+                                  jcr:mixinTypes="mix:title"
+                                  jcr:primaryType="jnt:translation"
+                                  jcr:title="Stylish Portfolio"/>
+                <social-links jcr:primaryType="spnt:socialLinks">
+                    <facebook jcr:primaryType="spnt:socialLink"
+                              simpleLineIcon="icon-social-facebook"
+                              url="https://facebook.com">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Facebook"/>
+                    </facebook>
+                    <twitter jcr:primaryType="spnt:socialLink"
+                             simpleLineIcon="icon-social-twitter"
+                             url="https://twitter.com/">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Twitter"/>
+                    </twitter>
+                    <github jcr:primaryType="spnt:socialLink"
+                            simpleLineIcon="icon-social-github"
+                            url="https://github.com">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="GitHub"/>
+                    </github>
+                </social-links>
+                <copyright jcr:primaryType="spnt:copyrightList">
+                    <copyright jcr:primaryType="spnt:copyright">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Copyright © Your Website 2019"/>
                     </copyright>
-                </home>
-            </stylish-portfolio-template>
+                </copyright>
+            </home>
+        </stylish-portfolio-template>
     </modules>
 </content>
