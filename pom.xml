@@ -89,6 +89,9 @@
         <configuration>
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
+            <_dsannotations>
+              org.jahia.modules.stylishportfolio.initialiters.*
+            </_dsannotations>
           </instructions>
         </configuration>
       </plugin>

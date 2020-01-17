@@ -6,6 +6,7 @@ import org.jahia.services.content.nodetypes.initializers.ModuleChoiceListInitial
 import org.jahia.services.content.nodetypes.renderer.AbstractChoiceListRenderer;
 import org.jahia.services.content.nodetypes.renderer.ModuleChoiceListRenderer;
 import org.jahia.services.render.RenderContext;
+import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,11 +17,12 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
+@Component(name = "simpleIconInitializer", service = ModuleChoiceListInitializer.class, immediate = true)
 public class SimpleIconInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
 
     private static final Logger logger = LoggerFactory.getLogger(SimpleIconInitializer.class);
 
-    private String key;
+    private String key = "simpleIconInitializer";
 
     /**
      * {@inheritDoc}
