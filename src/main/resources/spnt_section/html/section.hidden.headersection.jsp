@@ -22,7 +22,7 @@
 <c:if test="${jcr:isNodeType(currentNode, 'spmix:image')}">
     <c:set var="imageNode" value="${currentNode.properties.image.node}"/>
     <c:if test="${! empty imageNode}">
-        <c:url var="imageUrl" value="${imageNode.url}"/>
+        <c:url var="imageUrl" value="${imageNode.url}" context="/"/>
         <c:set var="bgImage"> style="background-image:url('${imageUrl}')"</c:set>
     </c:if>
 </c:if>

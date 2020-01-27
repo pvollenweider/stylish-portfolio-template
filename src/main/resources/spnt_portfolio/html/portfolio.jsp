@@ -16,7 +16,7 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<c:url var="detailUrl" value="${currentNode.url}"/>
+<c:url var="detailUrl" value="${currentNode.url}" context="/"/>
 <a class="portfolio-item" href="${detailUrl}">
     <span class="caption">
         <span class="caption-content">
