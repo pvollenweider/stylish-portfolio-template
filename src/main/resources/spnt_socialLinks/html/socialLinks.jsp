@@ -21,7 +21,7 @@
         </li>
     </c:forEach>
     <c:if test="${renderContext.editMode}">
-        <li class="list-inline-item"></li>
+        <li class="list-inline-item">
         <template:module path="*" nodeTypes="spnt:socialLink"/>
         </li>
     </c:if>
